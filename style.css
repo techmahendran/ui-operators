@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+}
+span {
+  color: mediumpurple;
+}
+.name {
+  margin-left: 30rem;
+}
+label {
+  font-size: 1.5rem;
+}
+.mail {
+  margin-left: 30rem;
+  margin-bottom: 1rem;
+}
+#name {
+  height: 2rem;
+  padding: 0.5rem;
+  width: 50%;
+  outline: none;
+  background-color: none;
+}
+#email {
+  height: 2rem;
+  padding: 0.5rem;
+  outline: none;
+  width: 50%;
+}
+
+#btn {
+  margin-left: 1rem;
+}
+#sum {
+  margin-left: 30rem;
+  padding: 0.5rem;
+  background-color: brown;
+  color: cornsilk;
+  border: none;
+  cursor: pointer;
+}
+
+#sub {
+  background-color: rgb(165, 42, 155);
+  color: cornsilk;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+#multiple {
+  background-color: rgb(147, 165, 42);
+  color: cornsilk;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+#divide {
+  background-color: rgb(42, 61, 165);
+  color: cornsilk;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#avg {
+  background-color: rgb(42, 140, 165);
+  color: cornsilk;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+p {
+  margin-left: 30rem;
+  font-size: 1.5rem;
+}
+#result {
+  margin-left: 30rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .name {
+    margin-left: 15rem;
+  }
+  .mail {
+    margin-left: 15rem;
+  }
+  #sum {
+    margin-left: 15rem;
+  }
+  p {
+    margin-left: 15rem;
+  }
+  #result {
+    margin-left: 15rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .name {
+    margin-left: 5rem;
+    width: 90%;
+  }
+  .mail {
+    width: 90%;
+    margin-left: 5rem;
+  }
+  #sum {
+    margin-left: 4rem;
+  }
+  #btn input:last-child {
+    display: block;
+    margin: 1em 0 0 4rem;
+  }
+  p {
+    margin-left: 5rem;
+  }
+  #result {
+    margin-left: 5rem;
+  }
+}
